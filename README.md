@@ -54,12 +54,7 @@ class LLMWithRewardModel:
 Watch agents discover the hidden 10kg boundary:
 - **Pure RL**: Gradually converges from random start
 - **LLM + Reward**: Refines initial estimates strategically
-- **Static LLM**: Never learns (horizontal line)
-
-### 📈 Key Insights
-1. **Pure RL**: Optimal but dangerous - like deploying a blind robot
-2. **Static LLM**: Safe but limited - like a stubborn expert
-3. **Hybrid**: Future of AI - combining reasoning with learning
+- **Static LLM**: Never learns
 
 ## 🚀 Quick Start
 
@@ -107,19 +102,6 @@ Episode 500:
   LLM + Reward → Avg reward:  0.98
 ```
 
-## 🎓 Educational Value
-
-### Perfect For:
-- **🎓 ML Students**: See RL, LLM, and hybrid approaches side-by-side
-- **🔬 Researchers**: Template for evaluating AI combinations
-- **👨‍💼 Practitioners**: Understand when to combine different AI methods
-- **📚 Educators**: Clear demonstration of learning paradigms
-
-### Learning Outcomes:
-- Understand epsilon-greedy exploration vs. reasoning
-- See how hybrid systems can outperform pure approaches
-- Learn about reward shaping and boundary learning
-- Visualize the exploration-exploitation trade-off
 
 ## 🏗️ Code Architecture
 
@@ -134,13 +116,6 @@ sorting_task.py
 ├── test_agents()          # Final evaluation on unseen objects
 └── visualize_results()     # Rich plots and analysis
 ```
-
-### Key Features:
-- **🧩 Modular Design**: Easy to add new agent types
-- **📝 Extensive Comments**: Every line explained for learning
-- **📊 Rich Visualization**: 6 publication-quality plots
-- **🔬 Detailed Logging**: Track every decision and threshold update
-- **⚡ Fast Execution**: 500 episodes in ~30 seconds
 
 ## 📊 Visualization Features
 
@@ -197,14 +172,6 @@ class YourCustomAgent:
 - **Strategic Exploration**: Focuses on uncertain weight ranges
 - **LLM Fallback**: Uses reasoning when boundaries are unclear
 
-## 🎯 Real-World Applications
-
-This pattern appears in:
-- **🤖 Robotics**: Combining planning with learning
-- **🏥 Healthcare**: Medical knowledge + patient-specific learning
-- **💰 Finance**: Market models + adaptive strategies
-- **🎮 Game AI**: Rule-based behavior + learned optimizations
-
 ## 📈 Results Interpretation
 
 ### Why Hybrid Wins:
@@ -225,35 +192,10 @@ This pattern appears in:
 - No mechanism to incorporate feedback
 - Optimal for some tasks, suboptimal for others
 
-## 🤝 Contributing
-
-We welcome contributions! Areas for enhancement:
-- **New agent types** (e.g., meta-learning, few-shot learning)
-- **Different tasks** (classification, regression, control)
-- **Advanced visualizations** (interactive plots, animations)
-- **Performance optimizations** (vectorized operations, GPU support)
-
 ## 📄 License
 
 MIT License - feel free to use for research and education!
 
-## 🙏 Acknowledgments
 
-- Inspired by the alignment-ambition paradox in AI development
-- Built on decades of RL and LLM research
-- Designed for the next generation of AI practitioners
-
----
-
-**🚀 Ready to explore the future of AI? Clone, run, and discover why hybrid approaches are reshaping artificial intelligence!**
-
-```bash
-git clone <>
-cd <>
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-python sorting_task.py
-```
 
 *"The future of AI isn't choosing between RL and LLMs - it's combining them intelligently."*
