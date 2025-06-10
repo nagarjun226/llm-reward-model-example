@@ -251,8 +251,11 @@ MIT License - feel free to use for research and education!
 **🚀 Ready to explore the future of AI? Clone, run, and discover why hybrid approaches are reshaping artificial intelligence!**
 
 ```bash
-git clone https://github.com/yourusername/object-sorting-ai-comparison
-cd object-sorting-ai-comparison
+git clone <>
+cd <>
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 python sorting_task.py
 ```
 
